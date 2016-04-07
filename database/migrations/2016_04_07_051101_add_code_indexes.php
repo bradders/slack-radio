@@ -23,7 +23,7 @@ class AddCodeIndexes extends Migration
      */
     public function down() {
       Schema::table('codes', function ($table) {
-        $table->dropUnique('code');
+        $table->dropUnique('codes_code_unique');
       });
     }
 }
