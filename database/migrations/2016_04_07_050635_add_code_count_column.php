@@ -12,7 +12,7 @@ class AddCodeCountColumn extends Migration
      */
     public function up() {
       Schema::table('codes', function ($table) {
-        $table->integer('count');
+        $table->integer('count')->after("definition");
       });
     }
 
