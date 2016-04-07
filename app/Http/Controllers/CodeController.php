@@ -45,6 +45,7 @@ class CodeController extends Controller {
 
         if( $object = Code::where("code", "=", $code)->first() ) {
           // Code found
+          $object->increment("count");
           $response["attachments"][]["text"] = "{$object->code}: {$object->definition}";
         } else {
           // Code not found
