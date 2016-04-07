@@ -14,7 +14,7 @@ class CodeController extends Controller {
 
       $response["response_type"] = "in_channel";
 
-      $code = $request->input("text", "10-4");
+      $code = strtolower($request->input("text", "10-4"));
 
       if( $code == "random" ) {
 
@@ -27,7 +27,7 @@ class CodeController extends Controller {
         // List all codes
         $response["response_type"] = "ephemeral";
         $response["text"] = "How to use /radio";
-        $response["attachments"][]["text"] = "Type Valid keyword commands: random, list, help\nView all codes at http://slackrad.io";
+        $response["attachments"][]["text"] = "Type /radio 10-4\nView all codes at http://slackrad.io\nValid keyword commands: random, list, help";
 
       } else if( $code == "list" ) {
 
