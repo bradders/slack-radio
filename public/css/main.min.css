@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+html {
+  font-size: 109.375%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: -apple-system, avenir next, avenir, helvetica, helvetica neue, Ubuntu, segoe ui, arial, sans-serif;
+}
+
+h1 {
+
+}
+
+.main {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
