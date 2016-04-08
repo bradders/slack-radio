@@ -48,7 +48,7 @@ class Handler extends ExceptionHandler
         $response = [];
         $response["response_type"] = "ephemeral";
         $response["text"] = "Code not found, try `/radio list` to see 'em all'";
-        //return parent::render($request, $e);
-        return response()->json($response);
+        return parent::render($request, $e);
+        //return response()->json($response);
     }
 }
