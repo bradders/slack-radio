@@ -32,7 +32,7 @@
   <footer class="section">
 
     <div class="wrapper">
-      <p class="copyright">&copy; Copyright Matt Bradley 2016</p>
+      <p class="copyright"><a href="http://mattmade.co.uk">&copy; Copyright Matt Bradley 2016</a></p>
     </div>
     <!-- /.wrapper -->
 
