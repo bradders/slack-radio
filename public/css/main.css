@@ -39,6 +39,16 @@ p {
   margin-bottom: 1rem;
 }
 
+a {
+  text-decoration: none;
+  color: #e51870;
+}
+
+a:hover, a:focus, a:active {
+  border-bottom: 1px solid #e51870;
+  text-decoration: none;
+}
+
 hr {
   width: 100%;
   height: 1px;
@@ -94,6 +104,10 @@ pre {
 
 .slack--pink {
   color: #e51870;
+}
+
+.slack--green {
+  color: #49c49f;
 }
 
 @media(min-width: 767px) {
