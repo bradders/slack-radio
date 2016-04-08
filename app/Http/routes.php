@@ -11,7 +11,5 @@
 |
 */
 
-$app->get("/", function() {
-  return view("home")->with( "codes", App\Code::all() );
-});
-$app->get("/code", "CodeController@index");
+$app->get("/", "CodeController@index");
+$app->post("/", "CodeController@code");

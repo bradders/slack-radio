@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 
 class CodeController extends Controller {
 
-  public function index(Request $request) {
+  public function index() {
+    return view("home")->with( "codes", Code::all() );
+  }
+
+  public function code(Request $request) {
 
     // Build response
     $response = [];
