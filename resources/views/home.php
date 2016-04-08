@@ -18,7 +18,7 @@
       <?php if( isset($codes) ) { ?>
       <dl class="codes">
       <?php foreach( $codes as $code ) { ?>
-        <dt class="code__code"><?php echo $code->code; ?>:</dt>
+        <dt class="code__code"><strong><em><?php echo $code->code; ?>:</em></strong></dt>
         <dd class="code__definition"><?php echo $code->definition; ?></dd>
       <?php } ?>
       </dl>
