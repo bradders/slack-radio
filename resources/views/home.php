@@ -15,6 +15,13 @@
 
       <h1>slackrad.io</h1>
 
+      <p><strong>Use APCO 10 codes in your Slack channel for quick replies.</strong></p>
+
+      <pre><code>/radio 10-4</code></pre>
+
+      <hr>
+
+      <h2>All Codes</h2>
       <?php if( isset($codes) ) { ?>
       <dl class="codes">
       <?php foreach( $codes as $code ) { ?>
