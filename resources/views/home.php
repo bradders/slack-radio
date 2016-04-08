@@ -13,7 +13,7 @@
 
     <div class="wrapper">
 
-      <h1>slackrad.io</h1>
+      <h1><span class="slack--pink">slack</span><span class="slack--blue">rad</span><span class="slack--yellow">.</span><span class="slack--blue">io</span></h1>
 
       <p><strong>Use APCO 10 codes in your Slack channel for quick replies.</strong></p>
 
