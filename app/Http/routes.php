@@ -11,7 +11,6 @@
 |
 */
 
-//$app->get("/", "CodeController@index");
 $app->get("/", function() {
   return view("home")->with( "codes", App\Code::all() );
 });
