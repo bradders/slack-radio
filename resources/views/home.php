@@ -4,7 +4,7 @@
   <title>Slack Radio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <style><?php include_once("css/main.min.css"); ?></style>
+  <style><?php include_once("css/main.css"); ?></style>
 
 </head>
 <body>
@@ -14,6 +14,8 @@
     <div class="wrapper">
 
       <h1><span class="slack--pink">slack</span><span class="slack--blue">rad</span><span class="slack--yellow">.</span><span class="slack--green">io</span></h1>
+
+      <a class="btn btn--add" href="https://slack.com/oauth/authorize?scope=commands&client_id=2194804124.33274405011"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 
       <p><strong>Use APCO 10 codes in your Slack channel for quick replies.</strong></p>
 
@@ -39,7 +41,7 @@
   <footer class="section">
 
     <div class="wrapper">
-      <p class="copyright"><a href="http://mattmade.co.uk">&copy; Copyright Matt Bradley 2016</a></p>
+      <p class="copyright"><a class="link" href="http://mattmade.co.uk">&copy; Copyright Matt Bradley 2016</a></p>
     </div>
     <!-- /.wrapper -->
 

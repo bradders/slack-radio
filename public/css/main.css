@@ -44,9 +44,15 @@ a {
   color: #e51870;
 }
 
-a:hover, a:focus, a:active {
-  border-bottom: 1px solid #e51870;
+.link:hover, .link:focus, .link:active {
   text-decoration: none;
+  border-bottom: 1px solid #e51870;
+}
+
+.btn--add {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
 }
 
 hr {
